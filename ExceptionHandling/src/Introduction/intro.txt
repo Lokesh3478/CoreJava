@@ -1,0 +1,15 @@
+Hhhhhh nException Handling:
+* An unwanted and unexpected event that disturbs the flow of program is called exception handling
+* It is highly recommended to handle exceptions and the main objective of exception handling is graceful termination of the program
+* Exception Handling doesn't mean repairing an exception, instead it means providing an alternative way to continue rest of the program normally
+
+
+Runtime Stack Mechanism:
+     For every Thread, JVM will create a runtime stack. Each and every method call performed by that thread will be stored in corresponding stack. Each entry in the stack is called stack frame or activation record. After completing every method call, the corresponding entry will be removed. After completing all method calls, the stack will become empty and that empty stack will be destroyed by JVM just before terminating the thread.
+
+class test{
+      p s v m(String args[]){
+             doStuff;
+     }
+     p s v 
+}
