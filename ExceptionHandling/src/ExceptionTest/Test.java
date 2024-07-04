@@ -4,8 +4,8 @@ import java.io.BufferedWriter;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.PrintWriter;
-
 public class Test {
+
 	
 	//CheckedException
 	public static void checkedDemo()throws Exception {
@@ -52,9 +52,9 @@ public class Test {
 			System.out.println(e.getMessage());
 			
 		}
-//		multipleCatch(5, null);
-//		multipleCatch(0,null);
-//		multipleCatch(0,"hello");
+		multipleCatch(5, null);
+		multipleCatch(0,null);
+		multipleCatch(0,"hello");
 		
 	}
 	public static void doStuff() {
